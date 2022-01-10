@@ -1,3 +1,3 @@
 Simple console calculator
 
-![image](https://user-images.githubusercontent.com/86486142/148812799-c1ce6800-af06-4273-8a21-bf8fc53cc3da.png)
+![image](https://user-images.githubusercontent.com/86486142/148813376-05d6fd2b-65a9-447a-918b-63fc6d92f2e6.png)
