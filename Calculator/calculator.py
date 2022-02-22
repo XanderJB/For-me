@@ -16,7 +16,7 @@ while True:
             return a * b
         if res == '4':
             return a // b; a/b
-        raise ValueError('Неизвестный оператор {}'.format.res)
+        #raise ValueError('Неизвестный оператор {}'.format.res)
     print(multi_num(res))
     exit = input("Введите q, чтобы выйти. \nНажмите Enter, чтобы продолжить использовать Калькулятор: ")
     if exit == "q":
