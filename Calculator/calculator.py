@@ -22,7 +22,7 @@ while True:
     if exit == "q":
         break
 input("Нажмите любую клавишу, чтобы выйти...")
-    
+
     
 
     
