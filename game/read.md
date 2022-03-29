@@ -1,1 +1,5 @@
-![image](https://user-images.githubusercontent.com/86486142/160549027-a48cde11-17fb-43b0-9b5f-1fd8fbd9018f.png)
+Проигрыш:
+![image](https://user-images.githubusercontent.com/86486142/160549838-927ee6c7-b8a8-48f2-8ea4-103b14ab514d.png)
+Выигрыш:
+![image](https://user-images.githubusercontent.com/86486142/160549895-0edfc20a-133c-4cac-bb18-75f219ccd537.png)
+
