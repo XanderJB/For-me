@@ -4,7 +4,7 @@ choice = random.randint(1, 20)
 tries = 5
 punctire = "---------------------------------------"
 while True:
-    print(f"Количество попыток {tries}")
+    print(f"Количество попыток: {tries}")
     userAnswer = int(input("Введите число от 1 до 20: "))
     if userAnswer > choice:
         print(f"Это слишком большое число. Напишите число поменьше\n{punctire}")
@@ -16,7 +16,6 @@ while True:
         print(f"Поздравляю, вы угадали. Это число {choice}")
         break
     if tries == 0:
-        print("Попытки кончились, вы проиграли")
+        print(f"Попытки кончились, вы проиграли. Это было число {choice}")
         break
 input("Нажмите Enter для выхода...")
-
