@@ -1,11 +1,11 @@
 import random
 
-choice = random.randint(1, 20)
+choice = random.randint(1, 100)
 tries = 5
 punctire = "---------------------------------------"
 while True:
     print(f"Количество попыток: {tries}")
-    userAnswer = int(input("Введите число от 1 до 20: "))
+    userAnswer = int(input("Введите число от 1 до 100: "))
     if userAnswer > choice:
         print(f"Это слишком большое число. Напишите число поменьше\n{punctire}")
         tries -= 1
