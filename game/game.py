@@ -2,7 +2,7 @@ import random
 
 choice = random.randint(1, 100)
 tries = 5
-punctire = "---------------------------------------"
+punctire = "-" * 50
 while True:
     print(f"Количество попыток: {tries}")
     userAnswer = int(input("Введите число от 1 до 100: "))
