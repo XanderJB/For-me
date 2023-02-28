@@ -1,12 +1,20 @@
 import cv2
 import numpy as np
 import pyautogui
+from win32api import GetSystemMetrics
+from datetime import datetime
 
-SCREEN_SIZE = (1280, 800)
+width = GetSystemMetrics(0)
+height = GetSystemMetrics(1)
+
+video_name = input("Введите название видео: ")
+
+SCREEN_SIZE = (width, height)
 
 fourcc = cv2.VideoWriter_fourcc(*"XVID")
 
-out = cv2.VideoWriter("output.avi", fourcc, 20.0, (SCREEN_SIZE))
+out = cv2.VideoWriter(f"{video_name}.avi", fourcc, 20.0, (SCREEN_SIZE))
+print("Для выхода нажать 'q' . . .")
 
 while True:
 	img = pyautogui.screenshot()
