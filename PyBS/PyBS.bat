@@ -1,2 +1,2 @@
-cd PyBS_Studio
+cd PyBS
 python main.py
