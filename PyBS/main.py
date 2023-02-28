@@ -1,11 +1,13 @@
 import cv2
 import numpy as np
 import pyautogui
-from win32api import GetSystemMetrics
 from datetime import datetime
+import tkinter as tk
 
-width = GetSystemMetrics(0)
-height = GetSystemMetrics(1)
+root = tk.Tk()
+
+width = root.winfo_screenwidth()
+height = root.winfo_screenheight()
 
 video_name = input("Введите название видео: ")
 
